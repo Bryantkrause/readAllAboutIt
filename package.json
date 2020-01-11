@@ -1,0 +1,26 @@
+{
+  "name": "readAllAboutIt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryantkrause/readAllAboutIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryantkrause/readAllAboutIt/issues"
+  },
+  "homepage": "https://github.com/Bryantkrause/readAllAboutIt#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "mongoose": "^5.8.1",
+    "express": "^4.17.1"
+  }
+}
