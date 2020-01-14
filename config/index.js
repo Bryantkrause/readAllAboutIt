@@ -1,7 +1,8 @@
 module.exports = require('mongoose')
-  .connect('mongodb://localhost/articledb', {
+.connect(process.env.MONGODB_URI || process.env.LOCALDB_URL, {
     useCreateIndex: true,
     useFindAndModify: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
-  })
+})
+.catch( e => console.error(e))
